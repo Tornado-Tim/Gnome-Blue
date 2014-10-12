@@ -12,4 +12,5 @@ ie: sudo cp /usr/share/gnome-background-properties/adwaita.xml ./mybackground.xm
 4) Open up the newly saved XML file and edit the contents in the filename tag to the location of where your forked the repo.
 5) Open up your background prefrences in GNOME and select the Background set.
 6) Done!
-
+Visual Look:
+![alt tag](https://raw.github.com/Tornado-Tim/Gnome-Blue/master/midnight.png)
