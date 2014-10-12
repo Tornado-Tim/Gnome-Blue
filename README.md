@@ -1,5 +1,6 @@
 Gnome-Blue
 ==========
+![alt tag](https://raw.githubusercontent.com/Tornado-Tim/Gnome-Blue/master/midnight.png)
 
 A Wallpaper Set for the Gnome Desktop derived from the default Gnome 3.10 Good Night Image.
 
@@ -17,5 +18,3 @@ ie: sudo cp /usr/share/gnome-background-properties/adwaita.xml ./mybackground.xm
 5) Open up your background prefrences in GNOME and select the Background set.
 
 6) Done!
-Visual Look:
-![alt tag](https://raw.githubusercontent.com/Tornado-Tim/Gnome-Blue/master/midnight.png)
