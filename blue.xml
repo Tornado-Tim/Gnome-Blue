@@ -1,0 +1,117 @@
+<background>
+  <starttime>
+    <year>2011</year>
+    <month>11</month>
+    <day>24</day>
+    <hour>7</hour>
+    <minute>00</minute>
+    <second>00</second>
+  </starttime>
+
+<!-- This animation will start at 7 AM. -->
+
+<!-- We start with sunrise at 7 AM. It will remain up for 1 hour. -->
+<static>
+<duration>3600.0</duration>
+<file>/home/tim/Pictures/Wallpapers/Blue-Gnome/good-morning.png</file>
+</static>
+
+<!-- Sunrise starts to transition to day at 8 AM. The transition lasts for 5 hours, ending at 1 PM. -->
+<transition type="overlay">
+<duration>7200.0</duration>
+<from>/home/tim/Pictures/Wallpapers/Blue-Gnome/good-morning.png</from>
+<to>/home/tim/Pictures/Wallpapers/Blue-Gnome/mid-morning.png</to>
+</transition>
+
+<!-- It's 10AM, we're showing the mid-morning image in full force now, for 5 hours ending at 6 PM. -->
+<static>
+<duration>3600.0</duration>
+<file>/home/tim/Pictures/Wallpapers/Blue-Gnome/mid-morning.png</file>
+</static>
+
+<!-- It's 11 AM transition from the mid-morning image to the midday image-->
+<transition type="overlay">
+<duration>3600.0</duration>
+<from>/home/tim/Pictures/Wallpapers/Blue-Gnome/mid-morning.png</from>
+<to>/home/tim/Pictures/Wallpapers/Blue-Gnome/midday.png</to>
+</transition>
+
+<!-- It's Midday (12AM) show the midday image in full force-->
+<static>
+<duration>3600.0</duration>
+<file>/home/tim/Pictures/Wallpapers/Blue-Gnome/midday.png</file>
+</static>
+
+<!-- It's 1 PM and mid-afternoon is approaching, transition from midday to afternoon -->
+<transition type="overlay">
+<duration>7200.0</duration>
+<from>/home/tim/Pictures/Wallpapers/Blue-Gnome/midday.png</from>
+<to>/home/tim/Pictures/Wallpapers/Blue-Gnome/afternoon.png</to>
+</transition>
+
+<!-- It's 3PM show the midday image in full force-->
+<static>
+<duration>3600.0</duration>
+<file>/home/tim/Pictures/Wallpapers/Blue-Gnome/afternoon.png</file>
+</static>
+
+<!-- It's 4 PM and we transition into the sunset image over 2 hours -->
+<transition type="overlay">
+<duration>7200.0</duration>
+<from>/home/tim/Pictures/Wallpapers/Blue-Gnome/afternoon.png</from>
+<to>/home/tim/Pictures/Wallpapers/Blue-Gnome/sunset.png</to>
+</transition>
+
+<!-- It's 6PM show the sunset image in full effect for 10 mins -->
+<static>
+<duration>600.0</duration>
+<file>/home/tim/Pictures/Wallpapers/Blue-Gnome/sunset.png</file>
+</static>
+
+<!-- It's 6.10 PM and twilight we will be soon. This will transition for 20 mins. -->
+<transition type="overlay">
+<duration>1200.0</duration>
+<from>/home/tim/Pictures/Wallpapers/Blue-Gnome/sunset.png</from>
+<to>/home/tim/Pictures/Wallpapers/Blue-Gnome/twilight.png</to>
+</transition>
+
+<!-- It's 6.30PM show the sunset image in full effect for 2 mins -->
+<static>
+<duration>120.0</duration>
+<file>/home/tim/Pictures/Wallpapers/Blue-Gnome/twilight.png</file>
+</static>
+
+<!-- It's 6.32 PM and it's going to start to get darker. This will transition for 6 hours up until midnight. -->
+<transition type="overlay">
+<duration>18000.0</duration>
+<from>/home/tim/Pictures/Wallpapers/Blue-Gnome/twilight.png</from>
+<to>/home/tim/Pictures/Wallpapers/Blue-Gnome/good-night.png</to>
+</transition>
+
+<!-- It's 11.32 PM. show the night image in full effect for 2 mins-->
+<static>
+<duration>120.0</duration>
+<file>/home/tim/Pictures/Wallpapers/Blue-Gnome/good-night.png</file>
+</static>
+
+<!-- It's 11.34 PM. We will transition to the midnight image over 26 minx-->
+<transition type="overlay">
+<duration>1560.0</duration>
+<from>/home/tim/Pictures/Wallpapers/Blue-Gnome/good-night.png</from>
+<to>/home/tim/Pictures/Wallpapers/Blue-Gnome/midnight.png</to>
+</transition>
+
+<!-- It's Midnight. show the midnight image in full effect for 5 hours-->
+<static>
+<duration>18000</duration>
+<file>/home/tim/Pictures/Wallpapers/Blue-Gnome/midnight.png</file>
+</static>
+
+
+<!-- It's 5 AM. We'll start transitioning to sunrise for 2 hours up until 7 AM. -->
+<transition type="overlay">
+<duration>7200.0</duration>
+<from>/home/tim/Pictures/Wallpapers/Blue-Gnome/midnight.png</from>
+<to>/home/tim/Pictures/Wallpapers/Blue-Gnome/good-morning.png</to>
+</transition>
+</background>
